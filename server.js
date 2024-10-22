@@ -34,7 +34,7 @@
 
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = 8080;
 
 // Middleware for handling request schema validation
 // Express doesn't natively support schema validation like Fastify, 
