@@ -25,7 +25,7 @@ fastify.route({
   }
 })
 
-fastify.listen({ port: 3000 }, (err) => {
+fastify.listen({ port: 8080 }, (err) => {
   if (err) {
     fastify.log.error(err)
     process.exit(1)
