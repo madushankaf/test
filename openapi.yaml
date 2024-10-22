@@ -1,0 +1,21 @@
+openapi: 3.0.0
+info:
+  title: Simple Hello API
+  version: 1.0.0
+paths:
+  /hello:
+    get:
+      summary: Returns a hello message
+      responses:
+        '200':
+          description: A hello message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  hello:
+                    type: string
+                    example: "world"
+servers:
+  - url: http://localhost:3000
